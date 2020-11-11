@@ -98,7 +98,7 @@ def logged(func):
     return inner
 
 
-# log function arguments and its return value
+#  log function arguments and its return value
 
 
 @logged
