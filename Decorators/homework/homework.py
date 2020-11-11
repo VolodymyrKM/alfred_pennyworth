@@ -16,7 +16,6 @@ add(5, 5)  # 10
 def add(a, b):
     return a + b
 
-
 add(5, 5)  # 20
 
 
