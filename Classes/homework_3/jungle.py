@@ -75,7 +75,8 @@ class Jungle:
 
 
 def animal_generator():
-    for i in range(10):
+    random_numbers = [randint(2,20) for run_num in range(10)]
+    for i in random_numbers:
         if i % 2 == 0:
             i = Predator(power=randint(20, 100), speed=randint(20, 100))
             i.id = uuid4()
