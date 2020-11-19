@@ -69,7 +69,6 @@ logger_handler.setFormatter(logger_formatter)
 logger.addHandler(logger_handler)
 
 
-
 def log_message(message, level):
     if level == 10:
         return logger.debug(message)
