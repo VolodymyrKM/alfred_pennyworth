@@ -2,8 +2,6 @@ import argparse
 from datetime import datetime, timezone
 import os
 from typing import List
-import sys
-import csv
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser(description='Stored all information into one file in input years range')
@@ -74,6 +72,4 @@ if __name__ == '__main__':
                         if 'brewery_name' in row:
                             continue
                         file_1.writelines(row)
-
-
     write_file(args.file_name)
